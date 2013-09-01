@@ -49,7 +49,7 @@ then
 	if [ -z $djpid ]
 	then
 		echo failed to start django app!, exiting...
-		exit 1
+		exit 1
 	fi
 	
 	sitefile=/etc/nginx/sites-available/$djpid
